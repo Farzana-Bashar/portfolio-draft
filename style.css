@@ -7,6 +7,9 @@ body{
 .blue-color{
   color:rgba(4, 71, 116, 0.822);
 }
+h1{
+  font-size: 40px;
+}
 .about{
   font:bold;
   font-size: 40px;
@@ -57,3 +60,37 @@ body{
   background-position: left-top;
   background-size: 50px;
 }
+
+.experience-sec{
+  background-image: url(./image/color-half-circle.png);
+  background-repeat: no-repeat;
+  background-position: left-top;
+  background-size: 80px;
+  padding-left: 10%;
+}
+
+.experience-box{
+  /* border: 2px solid black; */
+  padding-left: 10%;
+  margin: 60px;
+  padding: 20px 0px 50px 10px;
+  text-align: middle;
+  border-left: 10px solid;
+  border-image: linear-gradient(rgb(231, 229, 68), rgb(161, 69, 8));
+  border-image-slice: 1;
+  box-shadow: 10px 10px 30px gray;
+  border-radius: 10px;
+}
+
+#baby-web{
+  border-left: 10px solid;
+  border-image: linear-gradient(rgb(96, 202, 228), rgb(110, 16, 216));
+  border-image-slice: 1;
+}
+
+footer p{
+  text-align: center;
+}
+/* .experience-h1{
+  padding-left: 5%;
+} */
